@@ -70,7 +70,7 @@ public class PlayerController : MonoBehaviour
 
     void MoveCharacter()
     {
-        float speed = Input.GetKeyDown(KeyCode.LeftShift) ? runningSpeed : walkingSpeed;
+        float speed = Input.GetKey(KeyCode.LeftShift) ? runningSpeed : walkingSpeed;
         rb.MovePosition(
             transform.position + change * speed * Time.deltaTime
             );
