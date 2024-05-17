@@ -18,7 +18,6 @@ public class Log : Enemy
         myRB = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         target = GameObject.FindWithTag("Player").transform;
-
     }
 
     // Update is called once per frame

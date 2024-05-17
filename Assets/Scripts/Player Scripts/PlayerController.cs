@@ -30,6 +30,7 @@ public class PlayerController : MonoBehaviour
         animator.SetFloat("moveX", 0);
         animator.SetFloat("moveY", -1);
     }
+
     private void Update()
     {
         change = Vector3.zero;
