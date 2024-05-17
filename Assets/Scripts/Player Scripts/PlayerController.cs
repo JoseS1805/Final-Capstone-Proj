@@ -45,6 +45,12 @@ public class PlayerController : MonoBehaviour
         {
             UpdateAnimationAndMove();
         }
+
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            Application.Quit();
+
+        }
     }
 
     private IEnumerator AttackCo()
